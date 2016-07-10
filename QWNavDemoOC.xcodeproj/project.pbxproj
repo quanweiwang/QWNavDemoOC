@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7639F7D51D31F6AE00CCAD2F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7639F7D41D31F6AE00CCAD2F /* main.m */; };
+		7639F7D81D31F6AE00CCAD2F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7639F7D71D31F6AE00CCAD2F /* AppDelegate.m */; };
+		7639F7DE1D31F6AE00CCAD2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7639F7DC1D31F6AE00CCAD2F /* Main.storyboard */; };
+		7639F7E01D31F6AE00CCAD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7639F7DF1D31F6AE00CCAD2F /* Assets.xcassets */; };
+		7639F7E31D31F6AE00CCAD2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7639F7E11D31F6AE00CCAD2F /* LaunchScreen.storyboard */; };
+		7639F7EE1D31F6AE00CCAD2F /* QWNavDemoOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7639F7ED1D31F6AE00CCAD2F /* QWNavDemoOCTests.m */; };
+		7639F7FB1D31F6EC00CCAD2F /* BaseNav.m in Sources */ = {isa = PBXBuildFile; fileRef = 7639F7FA1D31F6EC00CCAD2F /* BaseNav.m */; };
+		7639F7FE1D31F86900CCAD2F /* QWFristVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7639F7FD1D31F86900CCAD2F /* QWFristVC.m */; };
+		7639F8011D31F8AE00CCAD2F /* QWSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7639F8001D31F8AE00CCAD2F /* QWSecondVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7639F7EA1D31F6AE00CCAD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7639F7C81D31F6AE00CCAD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7639F7CF1D31F6AE00CCAD2F;
+			remoteInfo = QWNavDemoOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7639F7D01D31F6AE00CCAD2F /* QWNavDemoOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QWNavDemoOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7639F7D41D31F6AE00CCAD2F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7639F7D61D31F6AE00CCAD2F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7639F7D71D31F6AE00CCAD2F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7639F7DD1D31F6AE00CCAD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7639F7DF1D31F6AE00CCAD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7639F7E21D31F6AE00CCAD2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7639F7E41D31F6AE00CCAD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7639F7E91D31F6AE00CCAD2F /* QWNavDemoOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWNavDemoOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7639F7ED1D31F6AE00CCAD2F /* QWNavDemoOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWNavDemoOCTests.m; sourceTree = "<group>"; };
+		7639F7EF1D31F6AE00CCAD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7639F7F91D31F6EC00CCAD2F /* BaseNav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseNav.h; path = BaseClass/BaseNav.h; sourceTree = "<group>"; };
+		7639F7FA1D31F6EC00CCAD2F /* BaseNav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseNav.m; path = BaseClass/BaseNav.m; sourceTree = "<group>"; };
+		7639F7FC1D31F86900CCAD2F /* QWFristVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWFristVC.h; sourceTree = "<group>"; };
+		7639F7FD1D31F86900CCAD2F /* QWFristVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWFristVC.m; sourceTree = "<group>"; };
+		7639F7FF1D31F8AE00CCAD2F /* QWSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QWSecondVC.h; sourceTree = "<group>"; };
+		7639F8001D31F8AE00CCAD2F /* QWSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QWSecondVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7639F7CD1D31F6AE00CCAD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7639F7E61D31F6AE00CCAD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7639F7C71D31F6AE00CCAD2F = {
+			isa = PBXGroup;
+			children = (
+				7639F7D21D31F6AE00CCAD2F /* QWNavDemoOC */,
+				7639F7EC1D31F6AE00CCAD2F /* QWNavDemoOCTests */,
+				7639F7D11D31F6AE00CCAD2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7639F7D11D31F6AE00CCAD2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7639F7D01D31F6AE00CCAD2F /* QWNavDemoOC.app */,
+				7639F7E91D31F6AE00CCAD2F /* QWNavDemoOCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7639F7D21D31F6AE00CCAD2F /* QWNavDemoOC */ = {
+			isa = PBXGroup;
+			children = (
+				7639F7F81D31F6D000CCAD2F /* BaseClass */,
+				7639F7D61D31F6AE00CCAD2F /* AppDelegate.h */,
+				7639F7D71D31F6AE00CCAD2F /* AppDelegate.m */,
+				7639F7DC1D31F6AE00CCAD2F /* Main.storyboard */,
+				7639F7DF1D31F6AE00CCAD2F /* Assets.xcassets */,
+				7639F7E11D31F6AE00CCAD2F /* LaunchScreen.storyboard */,
+				7639F7E41D31F6AE00CCAD2F /* Info.plist */,
+				7639F7D31D31F6AE00CCAD2F /* Supporting Files */,
+				7639F7FC1D31F86900CCAD2F /* QWFristVC.h */,
+				7639F7FD1D31F86900CCAD2F /* QWFristVC.m */,
+				7639F7FF1D31F8AE00CCAD2F /* QWSecondVC.h */,
+				7639F8001D31F8AE00CCAD2F /* QWSecondVC.m */,
+			);
+			path = QWNavDemoOC;
+			sourceTree = "<group>";
+		};
+		7639F7D31D31F6AE00CCAD2F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7639F7D41D31F6AE00CCAD2F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7639F7EC1D31F6AE00CCAD2F /* QWNavDemoOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				7639F7ED1D31F6AE00CCAD2F /* QWNavDemoOCTests.m */,
+				7639F7EF1D31F6AE00CCAD2F /* Info.plist */,
+			);
+			path = QWNavDemoOCTests;
+			sourceTree = "<group>";
+		};
+		7639F7F81D31F6D000CCAD2F /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				7639F7F91D31F6EC00CCAD2F /* BaseNav.h */,
+				7639F7FA1D31F6EC00CCAD2F /* BaseNav.m */,
+			);
+			name = BaseClass;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7639F7CF1D31F6AE00CCAD2F /* QWNavDemoOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7639F7F21D31F6AE00CCAD2F /* Build configuration list for PBXNativeTarget "QWNavDemoOC" */;
+			buildPhases = (
+				7639F7CC1D31F6AE00CCAD2F /* Sources */,
+				7639F7CD1D31F6AE00CCAD2F /* Frameworks */,
+				7639F7CE1D31F6AE00CCAD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QWNavDemoOC;
+			productName = QWNavDemoOC;
+			productReference = 7639F7D01D31F6AE00CCAD2F /* QWNavDemoOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7639F7E81D31F6AE00CCAD2F /* QWNavDemoOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7639F7F51D31F6AE00CCAD2F /* Build configuration list for PBXNativeTarget "QWNavDemoOCTests" */;
+			buildPhases = (
+				7639F7E51D31F6AE00CCAD2F /* Sources */,
+				7639F7E61D31F6AE00CCAD2F /* Frameworks */,
+				7639F7E71D31F6AE00CCAD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7639F7EB1D31F6AE00CCAD2F /* PBXTargetDependency */,
+			);
+			name = QWNavDemoOCTests;
+			productName = QWNavDemoOCTests;
+			productReference = 7639F7E91D31F6AE00CCAD2F /* QWNavDemoOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7639F7C81D31F6AE00CCAD2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wangqw;
+				TargetAttributes = {
+					7639F7CF1D31F6AE00CCAD2F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 89BZ957YW3;
+					};
+					7639F7E81D31F6AE00CCAD2F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 89BZ957YW3;
+						TestTargetID = 7639F7CF1D31F6AE00CCAD2F;
+					};
+				};
+			};
+			buildConfigurationList = 7639F7CB1D31F6AE00CCAD2F /* Build configuration list for PBXProject "QWNavDemoOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7639F7C71D31F6AE00CCAD2F;
+			productRefGroup = 7639F7D11D31F6AE00CCAD2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7639F7CF1D31F6AE00CCAD2F /* QWNavDemoOC */,
+				7639F7E81D31F6AE00CCAD2F /* QWNavDemoOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7639F7CE1D31F6AE00CCAD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7639F7E31D31F6AE00CCAD2F /* LaunchScreen.storyboard in Resources */,
+				7639F7E01D31F6AE00CCAD2F /* Assets.xcassets in Resources */,
+				7639F7DE1D31F6AE00CCAD2F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7639F7E71D31F6AE00CCAD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7639F7CC1D31F6AE00CCAD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7639F7D81D31F6AE00CCAD2F /* AppDelegate.m in Sources */,
+				7639F7FB1D31F6EC00CCAD2F /* BaseNav.m in Sources */,
+				7639F7D51D31F6AE00CCAD2F /* main.m in Sources */,
+				7639F7FE1D31F86900CCAD2F /* QWFristVC.m in Sources */,
+				7639F8011D31F8AE00CCAD2F /* QWSecondVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7639F7E51D31F6AE00CCAD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7639F7EE1D31F6AE00CCAD2F /* QWNavDemoOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7639F7EB1D31F6AE00CCAD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7639F7CF1D31F6AE00CCAD2F /* QWNavDemoOC */;
+			targetProxy = 7639F7EA1D31F6AE00CCAD2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7639F7DC1D31F6AE00CCAD2F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7639F7DD1D31F6AE00CCAD2F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7639F7E11D31F6AE00CCAD2F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7639F7E21D31F6AE00CCAD2F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7639F7F01D31F6AE00CCAD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7639F7F11D31F6AE00CCAD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7639F7F31D31F6AE00CCAD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QWNavDemoOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqw.QWNavDemoOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7639F7F41D31F6AE00CCAD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QWNavDemoOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqw.QWNavDemoOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7639F7F61D31F6AE00CCAD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QWNavDemoOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqw.QWNavDemoOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QWNavDemoOC.app/QWNavDemoOC";
+			};
+			name = Debug;
+		};
+		7639F7F71D31F6AE00CCAD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QWNavDemoOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wangqw.QWNavDemoOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QWNavDemoOC.app/QWNavDemoOC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7639F7CB1D31F6AE00CCAD2F /* Build configuration list for PBXProject "QWNavDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7639F7F01D31F6AE00CCAD2F /* Debug */,
+				7639F7F11D31F6AE00CCAD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7639F7F21D31F6AE00CCAD2F /* Build configuration list for PBXNativeTarget "QWNavDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7639F7F31D31F6AE00CCAD2F /* Debug */,
+				7639F7F41D31F6AE00CCAD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7639F7F51D31F6AE00CCAD2F /* Build configuration list for PBXNativeTarget "QWNavDemoOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7639F7F61D31F6AE00CCAD2F /* Debug */,
+				7639F7F71D31F6AE00CCAD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7639F7C81D31F6AE00CCAD2F /* Project object */;
+}
